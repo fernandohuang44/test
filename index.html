@@ -28,10 +28,8 @@
 			  data: {
 			    message: 'Hello Vue!'
 			  },
-			mounted() {
-				  document.querySelector('meta[name="abc"]').setAttribute("content", "111描述描述描述描述豆腐干豆腐干豆腐干自行车VS的规定格式大概豆腐干豆腐干说的是感动感动感动描述描述描述")
-			  },
-				created() {
+			
+				beforeMount() {
 			  	document.querySelector('meta[name="abc"]').setAttribute("content", "222描述描述描述描述豆腐干豆腐干豆腐干自行车VS的规定格式大概豆腐干豆腐干说的是感动感动感动描述描述描述")
 			  }
 			})
